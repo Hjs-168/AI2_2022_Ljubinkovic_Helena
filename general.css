@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&displaz+swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* za potrebe podesavanja padding-a pomocu root element - rem relativne jedinice */
+html {
+	font-size: 16px;
+}
+/* za potrebe podesavanja padding-a pomocu root element - rem relativne jedinice */
+
+/* uredjenje BODY tag-a */
+body {
+	overflow-x: hidden;
+}
+.pozadina {
+	background-color: #efe7dc;
+}
+/* uredjenje BODY tag-a */
+
+/* BACK TO TOP BTN */
+html {
+	scroll-behavior: smooth;
+}
+
+.arrow-icon {
+	width: 50px;
+	height: 50px;
+}
+.back-to-top,
+.back-to-top span {
+	transition: 0.2s ease-out;
+}
+/* BACK TO TOP BTN */
+
+/* JUMBOTRON NASLOVI */
+.jumbotron h1{
+	font-family: 'Georgia', serif;
+	font-weight: 800;
+	font-size: 50px;
+}
+
+.jumbotron p{
+	font-family: 'Times New Roman', serif;
+	font-weight: 600;
+	font-size: 30px;
+}
+/* JUMBOTRON NASLOVI */
+
+/* REGULISANJE VELICINE SLIKE U KLASI img-thumbnail */
+.img-thumbnail{
+	width: 100%;
+	border: none;
+}
+/* REGULISANJE VELICINE SLIKE U KLASI img-thumbnail */
+
+/* NAVIGACIONA TRAKA */
+.navbar-brand img{
+	width: 50px;
+	height: 50px;
+}
+.nav-link{
+	font-weight: 500;
+	font-family: 'Georgia', serif;
+	position: relative;
+	white-space: nowrap;
+}
+.Aktivan{
+	background-color: palevioletred;
+	text-shadow: 0 0 .65px white; 
+}
+
+/* NAVIGACIONA TRAKA */
+
+/* footer */
+footer {
+	background-color: rgba(255, 255, 255, 0.03);
+	backdrop-filter: blur(10px);
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+	height: 100px;
+}
+
+.footer-text {
+	font-family: 'Times New Roman', serif;
+	color: palevioletred;
+}
+
+h5 {
+	font-family: 'Times New Roman', serif;
+	color: whitesmoke;
+}
+
+.footer-link h5:hover {
+    transition: 0.5s;
+    color: palevioletred;
+	text-shadow: 0 0 1.5px palevioletred;
+}
+/* footer */
+
+/* dno stranice */
+.dno {
+	height: 200px;
+	background-color: #343A40;
+	font-family: 'Times New Roman', serif;
+}
+
+.dno-razmak {
+	margin-top: 50px;
+}
+/* dno stranice */
+
+/* UREDJENJE KARTICA */
+.card-text {
+	font-family: 'Times New Roman', serif;
+	font-size: 20px;
+}
+/* UREDJENJE KARTICA */

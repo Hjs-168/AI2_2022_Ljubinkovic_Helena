@@ -1,0 +1,50 @@
+/* centriranje teksta u celijama grid-a */
+.col-sm-6 {
+	margin: auto;
+	display: block;
+	padding: 4rem; /* 4*16 = 64px */
+}
+/* centriranje teksta u celijama grid-a */
+
+/* font u celijama grid-a */
+.col-sm-6 p {
+	font-family: 'Fira Sans', sans-serif;
+}
+/* font u celijama grid-a */
+
+/* Uredjenje HERO klasa */
+.hero{
+	position: relative;
+	height: 100vh;
+	background-color: var(--primary-color);
+	overflow: hidden;
+}
+
+.hero__video{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+.hero__content{
+	margin-left: 15%;
+}
+
+.hero__content h1{
+	color: white;
+	font-size: 50px;
+}
+
+.hero__content p{
+	color: white;
+	font-size: 20px;
+}
+/* Uredjenje HERO klasa */
+
+/* uredjenje teksta */
+.boja-istaknutog-teksta {
+	color: palevioletred;
+}
+/* uredjenje teksta */
