@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Student: Helena Ljubinković, AI 2/2022 
+		 Predmetni projekat Web dizajn          -->	
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- UKLJUCENJE BootStrap-a -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <!-- CSS DOKUMENT STIL -->   
+	<link rel="stylesheet" type="text/css" href="general.css">
+	<link rel="stylesheet" type="text/css" href="membership.css">
+	<link rel="stylesheet" type="text/css" href="about_us.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+</head>
+
+
+
+<body class="slika">
+
+
+	<!-- NASLOV STRANICE-->
+		<div class="jumbotron text-center">
+			<h1> NEWSLETTER </h1>
+			<p>  Subscribe to the Orchid Lux Cosmetics Newsletter and become a member! </p>
+		</div>
+  <!-- NASLOV STRANICE-->
+
+	 <!-- NAVIGACIONA TRAKA -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+			  <div class="container-fluid">
+
+			    <a class="navbar-brand" href="./About_us.html"> <img src="../PROJEKAT/slike/logo3_1.png" width="50px" height="50px"> </a>
+
+			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+
+			    <div class="collapse navbar-collapse" id="navbarNav">
+			      <ul class="navbar-nav ms-auto">
+			        <li class="nav-item fs-5">
+						  	<a class="nav-link" href="./Brands.html"> Brands </a>
+			        </li>
+			        <li class="nav-item fs-5">
+			          <a class="nav-link" href="./Galerija_MAKEUP.html"> Makeup </a>
+			        </li>
+			        <li class="nav-item fs-5">
+			          <a class="nav-link" href="./Galerija_SKINCARE.html"> Skincare </a>
+			        </li>
+			        <li class="nav-item fs-5">
+			          <a class="nav-link" href="./Galerija_HAIRCARE.html"> Haircare </a>
+			        </li>
+			        <li class="nav-item fs-5">
+			          <a class="nav-link" href="./Galerija_HEALTH.html"> Health </a>
+			        </li>           
+			        <li class="nav-item fs-5">
+			          <a class="nav-link" href="./Galerija_FRAGRANCE.html"> Fragrance </a>
+			        </li>   
+			        <li class="nav-item fs-5">
+			          <a class="nav-link" href="./Galerija_SALES.html"> Sales </a>
+			        </li>     
+			        <li class="nav-item fs-5">
+			          <a class="nav-link" href="./Gift_cards.html"> Gift cards </a>
+			        </li>
+			        <li class="nav-item fs-5">
+			          <a class="nav-link Aktivan" href="./Membership.html"> Become a member </a></a>
+			        </li>                  
+			      </ul>
+			    </div>
+			  </div>
+			</nav>	
+	 <!-- NAVIGACIONA TRAKA -->
+
+
+	<!--naslov za Newsletter -->
+		<div class="size text-center stil_teksta_1">
+			<h1> Sign up and keep up with everything the global cosmetic community is up to!</h1>
+		</div>
+	<!--naslov za Newsletter -->
+
+	<!-- SIGN UP FOR THE MEMBERSHIP -->
+
+
+	<!-- MAIN CONTAINER -->
+	<div class="container d-flex justify-content-center align-items-center min-vh-100">
+
+	    <!-- LOGIN CONTAINER -->
+	    <div class="row border p-3 bg-white shadow box-area">
+
+	        <!-- LEFT BOX -->
+			<div class="col-md-6 justify-content-center align-items-center flex-column left-box">
+				<div class="featured-image mt-3"> 
+					<img src="../PROJEKAT/slike/logo3_1.png" alt="slika" class="img-fluid"> 
+				</div>
+				<p class="text-center membership-text"> Become a member now!</p>
+			</div>
+
+	        <!-- RIGHT BOX -->
+			<div class="col-md-6 right-box">
+				<div class="row align-items-center">
+					<div class="header-text mb-2 mt-3 ml-5 stil_teksta_2">
+						<p> We welcome you into our commuity!</p>
+					</div>	
+				</div>
+
+				<!-- POPUNJAVANJE FORME ZA CLANARINU, preuzeto sa Bootstrap sajta-->
+				<div class="d-flex justify-content-center stil_forme">
+					<form>
+
+						<!-- e-mail -->
+				       <div class="form-group">
+				          <label for="exampleInputEmail1">Please enter your e-mail address:</label>
+				          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter e-mail">
+				          <small id="emailHelp" class="form-text text-muted">Information provided is confidential.</small>
+				       </div>
+
+				       <!-- password -->
+				       <div class="form-group">
+				          <label for="exampleInputPassword1">Please enter your password:</label>
+				          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				       </div>
+
+				       <!-- check-box -->
+				       <div class="input-group d-flex justify-content-center">
+				        <div class="form-check">
+				          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+				          <label class="form-check-label text-secondary" for="exampleCheck1">Remember me</label>
+				        </div>
+
+				           <!-- dodatak, ne postoji stranica ka kojoj vodi forgot password-->
+				            <div class="forgot ml-3">
+				            	<small><a href="#"> Forgot Password? </a></small> 
+				            </div>
+				       </div>
+
+				       <!-- SIGN UP DUGME -->
+				       <div class="input-group">
+				       		<button type="submit" class="btn btn-lg btn-block dugme_sign_up">Sign up!</button>
+				       </div>
+				       	<div class="input-group">
+				       		<button type="submit" class="btn btn-light btn-lg btn-block dugme_sign_up_google"> <img src="../PROJEKAT/slike/google_logo.png" class="mr-2"><small> Sign up with Google </small></button>
+				       </div>
+				    </form>
+				</div>
+			</div>
+      </div>
+	</div>
+
+   <!-- BACK TO TOP BTN -->
+    <div class="container-fluid">
+      <div class="d-flex justify-content-end">
+
+          <a href="#" class="back-to-top">
+            <span><img class="arrow-icon" src="../PROJEKAT/slike/down-arrow.png"></span>
+          </a>
+
+      </div>  
+    </div>    
+   <!-- BACK TO TOP BTN --> 
+
+      <!-- pocetak footer-a -->
+      <footer class="mt-5 py-3 fixed-bottom">
+        <div class="container text-light text-center">
+          <h2 class="footer-text font-weight-bold">Contact Us:</h2> 
+          <a class="text-decoration-none footer-link" target="_blank" href="mailto:helenaljubinkovic85@gmail.com"><h5>email: helenaljubinkovic85@gmail.com</h5></a> 
+        </div>
+      </footer>
+    <!-- kraj footer-a -->  
+
+    <!-- footer 2 -->
+      <section class="dno-razmak">
+        <div class="container-fluid text-light text-center dno">
+          <h2 class="pt-5 mt-5">&copy;2025 Orchid Lux Cosmetics</h2>          
+        </div>
+      </section>    
+    <!-- footer 2 --> 
+
+
+</body>
+
+</html>
